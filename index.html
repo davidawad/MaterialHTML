@@ -3,10 +3,46 @@
 <head>
 
 <link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
 
 
 </head>
 <body>
+
+ <h3>G. Tabs in Toolbar</h3>
+  
+  <core-toolbar class="medium-tall">
+  
+    <paper-icon-button icon="menu"></paper-icon-button>
+    <div flex>Title</div>
+    <paper-icon-button icon="search"></paper-icon-button>
+    <paper-icon-button icon="more-vert"></paper-icon-button>
+    
+    <div class="bottom fit" horizontal layout>
+    
+      <paper-tabs selected="0" flex style="max-width: 600px;">
+    
+        <paper-tab>ITEM ONE</paper-tab>
+        <paper-tab>ITEM TWO</paper-tab>
+        <paper-tab>ITEM THREE</paper-tab>
+        
+      </paper-tabs>
+      
+    </div>
+  
+  </core-toolbar>
+  
+  <br>
+  <br>
+  
+
+<paper-tabs selected="0">
+  <paper-tab>TAB 1</paper-tab>
+  <paper-tab>TAB 2</paper-tab>
+  <paper-tab>TAB 3</paper-tab>
+</paper-tabs>
+
+
 
 <p> cholos </p>
 
@@ -20,6 +56,11 @@
   <core-icon icon="favorite"></core-icon>
   custom button content
 </paper-button>
+
+
+
+
+
 
 
 </body>
