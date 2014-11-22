@@ -1,0 +1,25 @@
+{
+  "name": "desk",
+  "version": "0.0.1",
+  "description": "small test",
+  "main": "index",
+  "keywords": [
+    "material"
+  ],
+  "authors": [
+    "david"
+  ],
+  "license": "MIT",
+  "homepage": "github.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "Polymer/paper-elements#~0.5.1",
+    "polymer": "Polymer/polymer#~0.5.1"
+  }
+}
