@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline; }
+
+.menu {
+  font-color: white;
+  text-decoration: none; }
+
+/*# sourceMappingURL=output.css.map */
